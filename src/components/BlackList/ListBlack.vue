@@ -70,7 +70,7 @@ export default {
               </a>
             </th>
           </tr>
-        </thead>
+        </thead> 
         <tbody>
           <tr v-for="person in sortedPeople" :key="person.ID">
             <td>{{ person.ID }}</td>
